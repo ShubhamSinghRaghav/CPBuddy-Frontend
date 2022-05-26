@@ -25,7 +25,8 @@ const NoteState = (props) => {
   //     }
   //   ]
 
-  const host = "http://localhost:5000";
+  // const host = "http://localhost:5000";
+  const host = "https://cpbuddy.herokuapp.com";
   const [notes, setNotes] = useState(notesInitial);
 
   //Get all Node
